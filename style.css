@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    padding: 0;
+margin: 0;
+list-style: none;
+box-sizing: border-box;
+text-decoration: none;
+
+}
+:root {
+    --mainColor: #387F39;
+    --bk-color: #A2CA71;
+    --white: #ffff;
+    --black: #2222;
+    --font-family: "Moderustic", system-ui;
+
+}
+.container{
+    width: 100%;
+    min-height: 10vh;
+    background-color: orange;
+    background: url(./img/marvin-meyer-SYTO3xs06fU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 50px 20px 0;
+}
+
+form{
+    width: 500px;
+    height: auto ;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+}
+form h3{
+     
+    text-align: center;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 1.5rem;
+}
+form h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+div{
+    margin: 10px 0;
+    /* background-color: orange; */
+}
+form input{
+    width: 100%;
+    padding: 14px 8px;
+    border-radius: 7px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    border: 1px solid gray;
+    margin: 10px 0 ;
+    outline-color: #4ce18d;
+
+}
+input[type="submit"]{
+    background-color: #4ce18d;
+    font-weight:500;
+}
+input[type="submit"]:hover{
+    background-color: #0bec6d;
+    transition: 0.3s;
+}
+.form_choose_login{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: #5b5555;
+}
+.login_logo{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    align-items:center;
+    cursor: pointer;
+   padding: 10px;
+    /* background-color: #0bec6d; */
+}
+.agree_policy{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 10px 0;
+        /* background-color: cyan; */
+}
+
+form span{
+    color: #00eb53;
+    font-weight: 400;
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+
+}
+.form span:hover{
+    color: #00f76c;
+}
+.form_new_register{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 500;
+}
